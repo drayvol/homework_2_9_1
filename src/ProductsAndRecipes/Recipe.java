@@ -26,7 +26,7 @@ public class Recipe {
     public Integer getTotalSum(){
         Integer sum = 0;
         for (Map.Entry<Product, Integer> product:products.entrySet()) {
-            sum+=product.getKey().getPriсe()*product.getValue();
+            sum+=product.getKey().getPrice()*product.getValue();
         }
         return sum;
     }
