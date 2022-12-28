@@ -21,7 +21,7 @@ public class ProductList{
     public Integer getSum(ProductList productList){
         int sum=0;
         for (Product product: products) {
-            sum+=product.getPriсe();
+            sum+=product.getPrice();
         }
         return sum;
     }
